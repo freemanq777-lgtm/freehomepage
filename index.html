@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아름다운 전원주택, 당신의 꿈을 짓다 - [회사명]</title>
+    <!-- 여기에 CSS 링크를 추가합니다. 예: <link rel="stylesheet" href="style.css"> -->
+    <style>
+        /* 기본적인 레이아웃 및 가독성을 위한 임시 CSS */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; }
+        header { background: #2c3e50; color: #fff; padding: 1em 0; text-align: center; }
+        header h1 { margin: 0; }
+        nav { background: #34495e; padding: 0.5em 0; }
+        nav ul { list-style: none; padding: 0; margin: 0; text-align: center; }
+        nav ul li { display: inline; margin: 0 15px; }
+        nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
+        .hero { background: url('https://via.placeholder.com/1500x600?text=메인+배너+이미지') no-repeat center center/cover; color: #fff; text-align: center; padding: 100px 20px; }
+        .hero h2 { font-size: 3em; margin-bottom: 10px; }
+        .hero p { font-size: 1.2em; }
+        section { padding: 60px 20px; max-width: 1200px; margin: 0 auto; }
+        section:nth-child(even) { background: #f9f9f9; }
+        h2 { text-align: center; color: #2c3e50; margin-bottom: 40px; font-size: 2.5em; }
+        .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: #fff; border: 1px solid #ddd; padding: 20px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .card img { max-width: 100%; height: auto; margin-bottom: 15px; }
+        .process-steps { display: flex; justify-content: space-around; flex-wrap: wrap; text-align: center; }
+        .step { flex: 1; min-width: 250px; margin: 15px; padding: 20px; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+        .step .icon { font-size: 3em; color: #3498db; margin-bottom: 10px; }
+        .testimonial-slider { /* 나중에 캐러셀 등으로 구현 */ text-align: center; }
+        .contact-info { text-align: center; }
+        .contact-form { max-width: 600px; margin: 30px auto; padding: 20px; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+        .contact-form label { display: block; text-align: left; margin-bottom: 5px; font-weight: bold; }
+        .contact-form input, .contact-form textarea { width: calc(100% - 22px); padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 5px; }
+        .contact-form button { background: #3498db; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 1em; }
+        .blog-post { background: #fff; border: 1px solid #ddd; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        footer { background: #2c3e50; color: #fff; text-align: center; padding: 20px 0; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>[회사명]</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">홈</a></li>
+                <li><a href="#portfolio">프로젝트</a></li>
+                <li><a href="#services">서비스</a></li>
+                <li><a href="#process">건축 과정</a></li>
+                <li><a href="#testimonials">고객 후기</a></li>
+                <li><a href="#about">회사 소개</a></li>
+                <li><a href="#contact">문의</a></li>
+                <li><a href="#blog">블로그</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 메인 페이지 디자인: 시선을 사로잡는 첫인상 -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>당신의 꿈을 현실로, [회사명]과 함께하는 아름다운 전원주택</h2>
+                <p>자연 속에서 펼쳐지는 특별한 삶, 저희가 함께 만들어가겠습니다.</p>
+                <a href="#contact" class="button">지금 바로 상담하기</a>
+            </div>
+        </section>
+
+        <!-- 프로젝트 갤러리/포트폴리오 -->
+        <section id="portfolio">
+            <h2>우리의 프로젝트 갤러리</h2>
+            <p style="text-align: center; margin-bottom: 40px;">[회사명]이 완성한 아름다운 전원주택들을 만나보세요.</p>
+            <div class="container">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x300?text=전원주택+프로젝트+1" alt="프로젝트 1">
+                    <h3>[프로젝트명 1]</h3>
+                    <p>자연과 어우러진 모던한 디자인의 주택입니다. 넓은 창으로 들어오는 햇살이 인상적입니다.</p>
+                    <a href="#">자세히 보기</a>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x300?text=전원주택+프로젝트+2" alt="프로젝트 2">
+                    <h3>[프로젝트명 2]</h3>
+                    <p>전통적인 요소를 현대적으로 재해석한 따뜻한 감성의 주택입니다. 가족의 보금자리로 완벽합니다.</p>
+                    <a href="#">자세히 보기</a>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x300?text=전원주택+프로젝트+3" alt="프로젝트 3">
+                    <h3>[프로젝트명 3]</h3>
+                    <p>미니멀리즘을 추구하는 세련된 디자인의 주택입니다. 효율적인 공간 활용이 돋보입니다.</p>
+                    <a href="#">자세히 보기</a>
+                </div>
+                <!-- 더 많은 프로젝트 카드 추가 -->
+            </div>
+        </section>
+
+        <!-- 서비스 소개 -->
+        <section id="services">
+            <h2>우리의 서비스</h2>
+            <p style="text-align: center; margin-bottom: 40px;">[회사명]은 고객의 꿈을 현실로 만들기 위한 다양한 전원주택 건설 서비스를 제공합니다.</p>
+            <div class="container">
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x150?text=맞춤+설계" alt="맞춤 설계">
+                    <h3>맞춤형 건축 설계</h3>
+                    <p>고객님의 라이프스타일과 꿈을 반영한 세상에 하나뿐인 전원주택을 설계합니다.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x150?text=고품격+시공" alt="고품격 시공">
+                    <h3>고품격 시공 및 감리</h3>
+                    <p>최고의 기술력과 엄격한 품질 관리로 튼튼하고 아름다운 주택을 건설합니다.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x150?text=리모델링" alt="리모델링">
+                    <h3>증축 및 리모델링</h3>
+                    <p>오래된 공간에 새로운 생명을 불어넣어 더욱 가치 있는 공간으로 변화시킵니다.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x150?text=인테리어+솔루션" alt="인테리어 솔루션">
+                    <h3>토탈 인테리어 솔루션</h3>
+                    <p>주택의 외관뿐 아니라 내부 공간까지 완벽한 조화를 이루는 인테리어를 제안합니다.</p>
+                </div>
+                <!-- 더 많은 서비스 카드 추가 -->
+            </div>
+        </section>
+
+        <!-- 건설 과정 안내 -->
+        <section id="process">
+            <h2>전원주택 건설 과정</h2>
+            <p style="text-align: center; margin-bottom: 40px;">[회사명]과 함께라면 복잡한 건축 과정도 쉽고 투명하게 진행됩니다.</p>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="icon">📝</div>
+                    <h3>1단계: 상담 및 기획</h3>
+                    <p>고객님의 요구사항을 경청하고 부지 분석을 통해 최적의 건축 계획을 수립합니다.</p>
+                </div>
+                <div class="step">
+                    <div class="icon">📐</div>
+                    <h3>2단계: 건축 설계</h3>
+                    <p>전문 건축가가 고객님의 아이디어를 구체적인 도면으로 완성합니다.</p>
+                </div>
+                <div class="step">
+                    <div class="icon">🏗️</div>
+                    <h3>3단계: 시공 및 감리</h3>
+                    <p>숙련된 시공팀이 안전하고 정확하게 건축을 진행하며, 철저한 감리로 품질을 확보합니다.</p>
+                </div>
+                <div class="step">
+                    <div class="icon">🏡</div>
+                    <h3>4단계: 완공 및 입주</h3>
+                    <p>모든 공사를 마치고 고객님께 새 보금자리를 인도하며, 사후 관리도 약속드립니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 고객 후기/인터뷰 -->
+        <section id="testimonials">
+            <h2>고객 후기</h2>
+            <p style="text-align: center; margin-bottom: 40px;">실제 고객님들의 생생한 건축 경험담을 들어보세요.</p>
+            <div class="testimonial-slider">
+                <!-- 캐러셀 등으로 구현될 예정 -->
+                <div class="card">
+                    <p>"[회사명] 덕분에 꿈에 그리던 전원주택을 갖게 되었습니다. 섬세한 설계와 꼼꼼한 시공에 감동받았습니다!"</p>
+                    <h4>- 김** 고객님 -</h4>
+                </div>
+                <div class="card">
+                    <p>"처음부터 끝까지 친절하게 상담해주시고, 제가 원하는 모든 것을 반영해주셔서 정말 만족합니다. 강력 추천합니다!"</p>
+                    <h4>- 이** 고객님 -</h4>
+                </div>
+                <!-- 더 많은 후기 추가 -->
+            </div>
+        </section>
+
+        <!-- 회사 소개/철학 -->
+        <section id="about">
+            <h2>회사 소개 및 건축 철학</h2>
+            <div class="company-intro" style="text-align: center;">
+                <p>[회사명]은 오랜 경험과 전문성을 바탕으로 고객 한 분 한 분의 소중한 꿈을 현실로 만들어 드리는 전원주택 전문 건설 기업입니다.</p>
+                <p>우리의 건축 철학은 **'자연과의 조화, 가족의 행복, 그리고 지속 가능한 가치'** 입니다. 고객님의 라이프스타일을 깊이 이해하고, 자연 환경과 어우러지는 아름답고 기능적인 공간을 창조하며, 시간이 지날수록 더욱 가치를 더하는 주택을 짓기 위해 끊임없이 노력합니다.</p>
+                <img src="https://via.placeholder.com/600x400?text=회사+건물+또는+비전+이미지" alt="회사 비전 이미지" style="margin-top: 30px; max-width: 100%;">
+                <p style="margin-top: 20px;">[회사명]은 고객의 신뢰를 최우선으로 생각하며, 최고의 품질과 서비스로 보답하겠습니다.</p>
+            </div>
+        </section>
+
+        <!-- 문의하기/상담 신청 -->
+        <section id="contact">
+            <h2>문의하기 및 상담 신청</h2>
+            <p class="contact-info">전원주택 건설에 대한 궁금증이 있으신가요? 언제든지 [회사명]으로 문의해주세요. 친절하게 답변해 드리겠습니다.</p>
+            <p class="contact-info">전화: <a href="tel:000-0000-0000">000-0000-0000</a></p>
+            <p class="contact-info">이메일: <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></p>
+
+            <div class="contact-form">
+                <h3>온라인 상담 신청</h3>
+                <form action="#" method="POST">
+                    <label for="name">이름:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">이메일:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">연락처:</label>
+                    <input type="tel" id="phone" name="phone">
+
+                    <label for="subject">문의 주제:</label>
+                    <input type="text" id="subject" name="subject">
+
+                    <label for="message">문의 내용:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">상담 신청</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- 블로그/뉴스 -->
+        <section id="blog">
+            <h2>블로그 & 뉴스</h2>
+            <p style="text-align: center; margin-bottom: 40px;">전원주택 트렌드, 건축 노하우, [회사명]의 최신 소식을 만나보세요.</p>
+            <div class="container">
+                <div class="blog-post">
+                    <h3><a href="#">2024년 전원주택 인테리어 트렌드 TOP 5</a></h3>
+                    <p class="meta">작성일: 2024.03.15</p>
+                    <p>올해 유행할 전원주택 인테리어 스타일과 팁을 소개합니다. 당신의 주택을 더욱 특별하게 만들어보세요.</p>
+                    <a href="#">더 읽어보기</a>
+                </div>
+                <div class="blog-post">
+                    <h3><a href="#">전원주택 부지 선택, 이것만 알면 실패 없다!</a></h3>
+                    <p class="meta">작성일: 2024.03.01</p>
+                    <p>성공적인 전원주택 건축의 첫걸음, 부지 선택 가이드입니다. 중요한 고려사항들을 확인하세요.</p>
+                    <a href="#">더 읽어보기</a>
+                </div>
+                <!-- 더 많은 블로그 포스트 추가 -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [회사명]. All rights reserved.</p>
+        <p>주소: [회사 주소] | 전화: [회사 전화번호] | 이메일: [회사 이메일]</p>
+    </footer>
+
+</body>
+</html>
